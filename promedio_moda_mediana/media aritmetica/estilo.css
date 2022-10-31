@@ -1,0 +1,84 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Quicksand', sans-serif;;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1
+{
+    font-weight: 700;
+    font-size: 2.8rem;
+    width: 80%;
+    margin:20px auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+label
+{
+    font-size: 1.8rem;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+input
+{
+    width: 80%;
+    height: 120px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 2.0rem;
+}
+
+button
+{
+    width: 20%;
+    margin:40px auto;
+    border-radius: 10px;
+}
+
+.estadisticas
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 80px;
+    font-size: 1.6rem;
+}
+
+.cal
+{
+    margin-top: 40px;
+    background-color: black;
+    height: 200px;
+    width: 80%;
+    background-size: cover;
+}
+
+.moda
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.moda img
+{
+    width: 100%;
+    height: 100%;
+}
